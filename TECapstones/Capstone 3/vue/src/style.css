@@ -1,0 +1,84 @@
+html, body
+{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    height:100%;
+    background-image: url("../src/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+button
+{ 
+    display: flex;
+    background-color: rgb(255, 204, 0);
+    color: black;
+    border-width: 5px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 12px 30px;
+}
+
+button:hover
+{
+    background-color: rgb(251, 169, 45);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px 3px black;
+}
+
+#header
+{
+    display: flex;
+    padding: 2rem;
+    background-color: rgba(53, 53, 53, 0.8);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#header img {
+    display: flex;
+    width: 65%;
+}
+
+.inner-block {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    flex-direction: column;
+    flex-basis: 95%;
+  }
+
+.login-and-register {
+    display: flex;
+    color: white;
+    background: rgb(251, 169, 45);
+    padding: 1rem;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.sr-only {
+    display: flex;
+    padding: 1rem;
+    color: rgb(251, 169, 45);
+    justify-content: center;
+}
+
+.avgRating
+{
+    margin: auto;
+}
